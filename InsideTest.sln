@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{02EA681E-C7D8-13
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsideTest.Domain", "InsideTest.Domain\InsideTest.Domain.csproj", "{B1C0876E-BA63-485F-8041-E2C494B931D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsideTest.Infrastructure", "InsideTest.Infrastructure\InsideTest.Infrastructure.csproj", "{A1096DB4-4A6F-4B48-BA7F-E2671C2DE229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,14 @@ Global
 		{3BB82F41-C080-4CCA-A1EB-F51F7324AE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB82F41-C080-4CCA-A1EB-F51F7324AE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB82F41-C080-4CCA-A1EB-F51F7324AE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C0876E-BA63-485F-8041-E2C494B931D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C0876E-BA63-485F-8041-E2C494B931D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C0876E-BA63-485F-8041-E2C494B931D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C0876E-BA63-485F-8041-E2C494B931D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1096DB4-4A6F-4B48-BA7F-E2671C2DE229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1096DB4-4A6F-4B48-BA7F-E2671C2DE229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1096DB4-4A6F-4B48-BA7F-E2671C2DE229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1096DB4-4A6F-4B48-BA7F-E2671C2DE229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
