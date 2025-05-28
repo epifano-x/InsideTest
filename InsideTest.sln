@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsideTest", "InsideTest.csproj", "{547655A4-23F9-4C71-BF20-4E08A47BE5D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{547655A4-23F9-4C71-BF20-4E08A47BE5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547655A4-23F9-4C71-BF20-4E08A47BE5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547655A4-23F9-4C71-BF20-4E08A47BE5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547655A4-23F9-4C71-BF20-4E08A47BE5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA14DDC4-FD84-49C3-A63D-C05E4176ADC8}
+	EndGlobalSection
+EndGlobal
