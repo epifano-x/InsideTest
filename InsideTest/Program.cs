@@ -3,12 +3,15 @@ using InsideTest.Domain.Interfaces;
 using InsideTest.Infrastructure.Data;
 using InsideTest.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Adiciona o contexto do banco de dados InMemory
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseInMemoryDatabase("LojaDB"));
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+
 
 // Injeção de dependência
 builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
