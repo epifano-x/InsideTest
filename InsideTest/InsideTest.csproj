@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+	<PreserveCompilationContext>true</PreserveCompilationContext>
+	<AssemblyName>InsideTest</AssemblyName>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>e8a9e3e2-0635-4bb8-965f-3156d3a3058f</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	  
   </PropertyGroup>
 
   <ItemGroup>
